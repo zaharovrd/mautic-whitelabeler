@@ -1,5 +1,6 @@
 {
     "name": "nick/mautic-whitelabeler",
+    "description": "Mautic Whitelabeler - Customize your Mautic installation branding",
     "authors": [
         {
             "name": "Nick Thompson",
@@ -7,10 +8,15 @@
         }
     ],
     "require": {
+        "php": "^8.0",
         "chrisjean/php-ico": "^1.0",
-        "components/font-awesome": "4.7.0"
+        "components/font-awesome": "^4.7"
     },
+    "require-dev": {},
     "config": {
-        "COMPOSER_ALLOW_SUPERUSER" : 1
+        "allow-plugins": {
+            "composer/installers": true
+        },
+        "COMPOSER_ALLOW_SUPERUSER": 1
     }
 }
