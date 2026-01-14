@@ -10,7 +10,8 @@
     "require": {
         "php": "^8.0",
         "chrisjean/php-ico": "^1.0",
-        "components/font-awesome": "^4.7"
+        "components/font-awesome": "^4.7",
+        "league/climate": "^3.8"
     },
     "require-dev": {},
     "config": {
